@@ -60,5 +60,15 @@ AND `hour` > '14:00:00'
 
 --------------------------------------------------------------------------------------------
 
+6.SELEZIONA TUTTI I CORSI DI LAUREA MAGISTRALE
+
+SELECT *
+FROM `degrees` 
+WHERE `level` = 'magistrale'
+
+RISULTATO OTTENUTO (38)
+
+-------------------------------------------------------------------------------------
+
 
 
