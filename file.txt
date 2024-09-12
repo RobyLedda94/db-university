@@ -36,3 +36,16 @@ RISULTATO OTTENUTO 3602
 
 ----------------------------------------------------------------------------------------
 
+
+4.SELEZIONARE TUTTI I CORSI DEL PRIMO SEMESTRE DEL PRIMO ANNO DI UN QUALSIASI CORSO DI LAUREA
+
+
+SELECT *
+FROM `courses`
+WHERE `year` = 1
+AND `period` = 'I SEMESTRE';
+
+RISULTATO OTTENUTO (286)
+
+
+
