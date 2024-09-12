@@ -70,5 +70,16 @@ RISULTATO OTTENUTO (38)
 
 -------------------------------------------------------------------------------------
 
+7. DA QUANTI DIPARTIMENTI E' COMPOSTA L'UNIVERSITA'
+
+SELECT * 
+FROM `departments` 
+WHERE 1
+
+
+RISULTATO OTTENUTO 12
+
+-------------------------------------------------------------------------------------------------
+
 
 
