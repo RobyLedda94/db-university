@@ -82,4 +82,14 @@ RISULTATO OTTENUTO 12
 -------------------------------------------------------------------------------------------------
 
 
+8.QUANTI SONO GLI INSEGNANTI CHE NON HANNO UN NUMERO DI TELEFONO
+
+SELECT *
+FROM `departments`
+WHERE `phone` IS NULL;
+
+
+RISULTATO OTTENUTO 50
+
+
 
