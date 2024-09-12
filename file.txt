@@ -47,5 +47,18 @@ AND `period` = 'I SEMESTRE';
 
 RISULTATO OTTENUTO (286)
 
+-------------------------------------------------------------------------------------------
+
+5.SELEZIONA TUTTI GLI APPELLI D'ESAME CHE AVVENGONO NEL POMERIGGIO (DOPO LE 14) DEL 20 06 2020
+
+SELECT * 
+FROM `exams` 
+WHERE `date` = '2020-06-20'
+AND `hour` > '14:00:00'
+
+> DOPO LE 14, RISULTATO OTTENUTO (21)
+
+--------------------------------------------------------------------------------------------
+
 
 
