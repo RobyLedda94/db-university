@@ -20,3 +20,19 @@ WHERE `cfu` > 10;
 
 
 MAGGIORE DI 10 RISULTATO OTTENUTO 479
+
+
+
+----------------------------------------------------------------------------------
+
+3.SELEZIONA TUTTI GLI STUDENTI CHE HANNO PIU DI 30 ANNI
+
+SELECT * 
+FROM `students` 
+WHERE TIMESTAMPDIFF(YEAR, `date_of_birth`, CURRENT_DATE()) > 30
+
+RISULTATO OTTENUTO 3602
+
+
+----------------------------------------------------------------------------------------
+
